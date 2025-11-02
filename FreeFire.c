@@ -122,12 +122,12 @@ void listarItens(struct Item mochila[], int qtd) {
     }
 
     for (int i = 0; i < qtd; i++) {
-        printf("=================================")
+        printf("=================================");
         printf("\nItem %d:\n", i + 1);
         printf("Nome: %s\n", mochila[i].nome);
         printf("Tipo: %s\n", mochila[i].tipo);
         printf("Quantidade: %d\n", mochila[i].quantidade);
-        printf("=================================")
+        printf("=================================");
     }
 }
 
